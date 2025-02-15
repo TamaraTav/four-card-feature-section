@@ -85,6 +85,50 @@ main {
     bottom: 28px;
 }
 
+.supervisor {
+    border-top: 3.5px solid #44d3d2;
+}
+
+.team-builder {
+    border-top: 3.5px solid #ea5454;
+}
+
+.karma {
+    border-top: 3.5px solid #fcae4a;
+}
+
+.calculator {
+    border-top: 3.5px solid #549ef2;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+@media (min-width: 1440px) {
+    header h1 {
+        font-size: 36px;
+        max-width: 600px;
+    }
+    header p {
+        max-width: 540px;
+    }
+    main {
+        flex-direction: row;
+        gap: 30px;
+        justify-content: center;
+    }
+    .wrapper {
+        gap: 30px;
+
+    }
+
+}
+
+
+
 
 
 
